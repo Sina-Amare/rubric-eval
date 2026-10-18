@@ -93,6 +93,7 @@ cited lines in **Monaco**.
 cp .env.example .env          # set OPERATOR_TOKEN, APP_SECRET_KEY, OPENROUTER_API_KEY
 docker compose up --build
 # web → http://localhost:3000   api → http://localhost:8000/api/health
+# postgres → localhost:5433 (rubric/rubric), so a local PostgreSQL on 5432 doesn't clash
 ```
 
 Brings up Postgres + API + worker + web. Sign in with your `OPERATOR_TOKEN`.

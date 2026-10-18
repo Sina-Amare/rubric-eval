@@ -1,0 +1,3 @@
+# LF everywhere so scripts, the Makefile and Dockerfiles keep working in Linux/WSL
+# even when Windows git has core.autocrlf=true.
+* text=auto eol=lf
